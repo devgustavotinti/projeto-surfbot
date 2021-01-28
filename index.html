@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Surfbot</title>
   </head>
   <body>
     <div class="estrutura">
       <header class="header">
-        <a href="index.html"><img src="./icones/surfbot.svg" alt="Surfbot" /></a>
+        <a class="logo" href="index.html"
+          ><img src="./icones/surfbot.svg" alt="Surfbot"></a>
         <nav>
           <ul class="nav">
             <li><a href="#">Praia</a></li>
@@ -18,12 +21,10 @@
             <li><a href="#">Matricule-se</a></li>
           </ul>
         </nav>
-
-        <div>
-          <p class="escola">escola</p>
-          <p class="matricula">Matricule-se</p>
-        </div>
       </header>
+
+      <p class="escola">escola</p>
+      <p class="matricula">Matricule-se</p>
 
       <main>
         <div>
@@ -36,7 +37,7 @@
           <li>Salva-vidas a cada 300m</li>
         </ul>
 
-        <div mapa>
+        <div class="mapa">
           <img src="fotos/mapa.png" alt="mapa" />
         </div>
       </main>
